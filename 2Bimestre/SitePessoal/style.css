@@ -15,6 +15,9 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
 header{
     padding: 40px 4%;
 }
@@ -50,4 +53,16 @@ header .btn-contato button{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+}
+
+.img-topo-do-site img{
+    width: 300px; height: 300px;
+}
+section.topo-de-site{
+    padding: 30px 4%;
+}
+
+section.topo-de-site .flex{
+    align-items: center;
+    justify-content: center;
 }
