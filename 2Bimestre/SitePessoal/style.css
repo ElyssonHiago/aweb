@@ -27,8 +27,12 @@ header > .interface{
 header a{
     color: rgb(175, 56, 159);
     text-decoration: none;
+    display: inline-block;
 }
-
+header a:hover{
+    color: rgb(240, 97, 221);
+    transform: scale(1.05);
+}
 header nav ul{
     list-style-type: none;
 }
@@ -38,9 +42,12 @@ header nav ul li{
     padding: 0 40px;
 }
 
-heater .btn-contato button{
+header .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(212, 112, 204);
+    background-color: rgb(183, 68, 194);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
 }
