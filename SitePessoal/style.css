@@ -1,0 +1,101 @@
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #4CAF50; /* Cor de destaque */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Estilo do herói */
+        #hero {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        #hero h1 {
+            font-size: 24px;
+        }
+
+        /* Estilo das seções */
+        .section {
+            padding: 20px;
+        }
+
+        .section h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .section p {
+            font-size: 16px;
+        }
+
+        /* Estilo das curiosidades */
+        .curiosidades {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .curiosidades .curiosidade {
+            width: calc(33.33% - 20px);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .curiosidades img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #4CAF50; /* Cor de destaque */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    
+    
+    
+    
+    
+    
