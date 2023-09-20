@@ -20,6 +20,7 @@ body{
 }
 header{
     padding: 40px 4%;
+    background-color: white;
 }
 header > .interface{
     display: flex;
@@ -52,11 +53,13 @@ header .btn-contato button{
     background-color: rgb(183, 68, 194);
     border: 0;
     border-radius: 30px;
+
     cursor: pointer;
 }
 
 .img-topo-do-site img{
     width: 300px; height: 300px;
+    border-radius: 50%;
 }
 section.topo-de-site{
     padding: 30px 4%;
