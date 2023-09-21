@@ -11,32 +11,32 @@
 
     <header>
         <div class="interface">
-                <div class="logo">
-                    <a href="#">
-                        <img src="imagens/WhatsApp Image 2023-09-19 at 15.17.17.jpeg" alt="logo do site" width="100px" height="100px">
-                    </a>
-                </div><!--logo-->
-                <nav class="menu-desktop">
-                    <ul>
-                        <li><a href="#">E.H</a></li>
-                        <li><a href="#">sobre mim</a></li>
-                        <li><a href="#">curiosidades</a></li>
-                        <li><a href="#">educação</a></li>
-                        <li><a href="#">causos</a></li>
-                        <li><a href="#">habilidades</a></li>
-                    </ul>
-                </nav>
-
-                <div class="btn-contato">
-                    <a href="#">
-                        <button>contato</button>
-                    </a>
-                </div>
+            <div class="logo">
+                <a href="https://www.example.com"> <!-- Replace with your logo link -->
+                    <img src="imagens/WhatsApp Image 2023-09-19 at 15.17.17.jpeg" alt="logo do site" width="100px" height="100px">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">E.H</a></li>
+                    <li><a href="#sobre">sobre mim</a></li>
+                    <li><a href="#curiosidades">curiosidades</a></li>
+                    <li><a href="#historico-escolar">educação</a></li>
+                    <li><a href="#causos">causos</a></li>
+                    <li><a href="#habilidades">habilidades</a></li>
+                </ul>
+            </nav>
+    
+            <div class="btn-contato">
+                <a href="#contato"> <!-- Replace with your contact link -->
+                    <button>contato</button>
+                </a>
+            </div>
         </div><!--interface-->
     </header>
 
     <main>
-        <section class="topo-de-site">
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-do-topo-do-site"></div>
@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section class="curiosidadess">
+        <section id="curiosidades" class="curiosidades">
             <div class="interface">
                 <h2 class="titulo">Curiosidades sobre mim:</h2>
                 <div class="flex">
@@ -82,22 +82,52 @@
             </div>
         </section>
     </main>
-
+<section id="historico-escolar">
+    <table>
+        <thead>
+            <tr>
+                <th><h2>Meu histórico Escolar:</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008-2011</td>
+                <td>Escola Municipal Gonçalo Teixeira da Silva</td>
+            </tr>
+            <tr>
+                <td>2012-2020</td>
+                <td>Escola Municipal Maria Ester Paiva  </td>
+            </tr>
+            <tr>
+                <td>2021-2024</td>
+                <td>IFRN - CM</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="habilidades">
+    <h2 class="titulos">Minhas Habilidades:</h2>
+     <p>Sou maquiador, sei cantar, dançar, patinar.</p>
+</section>
     <footer>
         <div class="interface">
             <div class="line-footer">
-                
-            </div>
-            <div class="logo-footer">
-                <img src="imagens/WhatsApp Image 2023-09-19 at 15.17.17.jpeg" alt="">
-            </div>
-            <div class="bnt-social">
-                <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-            </div>
-            <div class="line-footer">
-                <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:hiago.nascimento@escolar.ifrn.edu.br">hiago.nascimento@escolar.ifrn.edu.br</a></p>
+                <div class="flex">
+                    
+                </div>
+                <div class="logo-footer">
+                    <img src="imagens/WhatsApp Image 2023-09-19 at 15.17.17.jpeg" alt="">
+                </div>
+                <div class="bnt-social">
+                    <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                </div>
+             </div>
+
+             <div class="line-footer">
+                <p>Você pode entrar em contato comigo através do e-mail: <a href="mailto:seuemail@example.com">lauralemos06@gmail.com</a></p>
             </div>
         </div>
     </footer>
+
 </body>
 </html>

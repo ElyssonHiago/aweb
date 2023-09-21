@@ -110,6 +110,47 @@ section.curiosidades .flex{
     transition: .2s;
 }
 
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(175, 56, 159);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+footer{
+    background-color: white;
+    padding: 5px 4%;
+    box-shadow: 0 0 40px 10px pink;
+}
+
 .logo-footer img{
     width: 75px; height: 75px;
 }
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    border-bottom: 2px solid; color: rgb(136, 18, 93);
+}
+
+footer .line-footer p i{
+    color: white;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: rgb(178, 29, 143);
+}
+
+#educacao {
+    background-color: blueviolet; 
+    padding: 20px;
+    
+  }
