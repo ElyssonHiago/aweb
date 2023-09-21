@@ -19,7 +19,7 @@ body{
     display: flex;
 }
 header{
-    padding: 40px 4%;
+    padding: 20px 4%;
     background-color: white;
 }
 header > .interface{
@@ -57,6 +57,15 @@ header .btn-contato button{
     cursor: pointer;
 }
 
+h2.titulo{
+    color: black;
+    text-align: center;  
+}
+
+.img-topo-do-site p{
+    font-size: 30px;
+}
+
 .img-topo-do-site img{
     width: 300px; height: 300px;
     border-radius: 50%;
@@ -68,4 +77,39 @@ section.topo-de-site{
 section.topo-de-site .flex{
     align-items: center;
     justify-content: center;
+}
+
+section.curiosidades{
+    padding: 40px 4%;
+    text-align: left;
+}
+section.curiosidades .flex{
+    gap: 60px;
+}
+.curiosidade-box img{
+    padding: 40px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+}
+
+.curiosidade-box img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px pink;
+    transition: .2s;
+}
+
+.curiosidade-box p{
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.curiosidade-box p:hover{
+    transform: scale(1.o5);
+    box-shadow: 0 0 8px pink;
+    transition: .2s;
+}
+
+.logo-footer img{
+    width: 75px; height: 75px;
 }
